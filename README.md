@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: ultraplan
 description: Deep planning mode — spawn an isolated Opus sub-agent for 10-30 minutes of focused strategic thinking. Produces a detailed, reviewable plan before any execution. Use for complex tasks that need architectural thinking, multi-step strategies, or risk analysis before committing to action. Complements pipeline-orchestrator (ULTRAPLAN plans, pipeline executes).
@@ -259,3 +263,13 @@ ULTRAPLAN sessions are expensive:
 - Use judiciously — not for simple tasks
 - Consider: "Is this task complex enough to justify 30 min of Opus thinking?"
 - Rule of thumb: if execution would take >4 hours, ULTRAPLAN is worth it
+
+## Installation
+
+```bash
+cp -r ultraplan/ ~/.openclaw/workspace/skills/ultraplan/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
